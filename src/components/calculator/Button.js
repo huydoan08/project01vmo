@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = ({symbol, handleClick,color,height}) => {
+const Button = ( {symbol, handleClick, color, height} ) => {
     return (
         <div 
         onClick={() => handleClick(symbol)}

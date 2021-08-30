@@ -5,7 +5,7 @@ const Calculator = () => {
   const [text, setText] = useState("");
   const [result, setResult] = useState("");
 
-  const addToText = (value) => {
+  const addMoreText = (value) => {
     setText((text) => [...text, value + ""]);
   };
   const calculatorResult = () => {
@@ -27,61 +27,61 @@ const Calculator = () => {
               <Button color="#ac3939" symbol="AC" handleClick={clearResult} />             
             </div>
             <div>
-              <Button color="#666666" symbol="/" handleClick={addToText} />
+              <Button color="#666666" symbol="/" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#666666" symbol="*" handleClick={addToText} />
+              <Button color="#666666" symbol="*" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#4d4d4d" symbol="7" handleClick={addToText} />
+              <Button color="#4d4d4d" symbol="7" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#4d4d4d" symbol="8" handleClick={addToText} />
+              <Button color="#4d4d4d" symbol="8" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#4d4d4d" symbol="9" handleClick={addToText} />
+              <Button color="#4d4d4d" symbol="9" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#666666" symbol="-" handleClick={addToText} />
+              <Button color="#666666" symbol="-" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#4d4d4d" symbol="4" handleClick={addToText} />
+              <Button color="#4d4d4d" symbol="4" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#4d4d4d" symbol="5" handleClick={addToText} />
+              <Button color="#4d4d4d" symbol="5" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#4d4d4d" symbol="6" handleClick={addToText} />
+              <Button color="#4d4d4d" symbol="6" handleClick={addMoreText} />
             </div>
             <div>
-              <Button color="#666666" symbol="+" handleClick={addToText} />
+              <Button color="#666666" symbol="+" handleClick={addMoreText} />
             </div>
           </div>
           <div className="grid grid-cols-4 mx-2  mb-4">
             <div className="grid grid-cols-3 col-span-3">
               <div className="">
                 <div>
-                  <Button color="#4d4d4d" symbol="1" handleClick={addToText} />
+                  <Button color="#4d4d4d" symbol="1" handleClick={addMoreText} />
                 </div>              
               </div>
               <div>
                 <div>
-                  <Button color="#4d4d4d" symbol="2" handleClick={addToText} />
+                  <Button color="#4d4d4d" symbol="2" handleClick={addMoreText} />
                 </div>              
               </div>
               <div>
                 <div>
-                  <Button color="#4d4d4d" symbol="3" handleClick={addToText} />
+                  <Button color="#4d4d4d" symbol="3" handleClick={addMoreText} />
                 </div>              
               </div>
               <div className="col-span-2">
                 <div>
-                  <Button color="#4d4d4d" symbol="0" handleClick={addToText} />
+                  <Button color="#4d4d4d" symbol="0" handleClick={addMoreText} />
                 </div>              
               </div>
               <div>
                 <div>
-                  <Button color="#4d4d4d" symbol="." handleClick={addToText} />
+                  <Button color="#4d4d4d" symbol="." handleClick={addMoreText} />
                 </div>              
               </div>
             </div>
